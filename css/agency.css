@@ -124,6 +124,10 @@ img::-moz-selection {
   color: #85bb65;
 }
 
+.red {
+  background: red;
+}
+
 .custom-banner-page .fixed-top {
   top: 40px !important;
 }
