@@ -290,7 +290,12 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
   color: white;
 }
 
-.hu-xii-banner {
+.faq-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/building.jpg");
+  color: white;
+}
+
+.fall-2018-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/fall-2018/banners/stacey.jpg");
   color: white;
 }
