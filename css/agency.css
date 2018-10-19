@@ -120,12 +120,27 @@ img::-moz-selection {
 }
 
 .prize-money {
-  font-size: 1.4em;
+  font-size: 2.4em;
   color: #85bb65;
 }
 
-.red {
-  background: red;
+.sponsor-photo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.schedule-subtitle {
+  font-size: 14px;
+  padding-right: 80px;
+  line-height: 1.1;
+}
+
+.presenting-sponsor {
+  border-radius: 20px;
+  border: 3px solid rgba(79, 36, 94, 0.7);
+  /* background-color: rgba(79, 36, 94, 0.7); */
 }
 
 .custom-banner-page .fixed-top {
@@ -216,14 +231,22 @@ img::-moz-selection {
   padding: 10px;
   font-size: 14px;
   color: #fff;
-  background-color: #F39B31;
   text-align: center;
   overflow-wrap: break-word;
 }
 
+.ray-flan-banner {
+  background-color: #4F245E;
+}
+
+.itx-banner {
+  background-color: orange;
+}
+
 @media (max-width: 425px) {
   #sponsor-banner {
-    padding: 5px;
+    padding: 6px;
+    font-size: 12px;
   }
 }
 
@@ -280,23 +303,13 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
   }
 }
 
-.main-hu-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/fall-2018/banners/ryan.jpg");
+.ryan-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/ryan.jpg");
   color: white;
 }
 
-.cny-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/cny.jpg");
-  color: white;
-}
-
-.faq-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/building.jpg");
-  color: white;
-}
-
-.fall-2018-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/fall-2018/banners/stacey.jpg");
+.stacey-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/stacey.jpg");
   color: white;
 }
 
@@ -325,6 +338,11 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
   max-width: 400px;
   margin: 0 auto;
   cursor: default;
+}
+
+#portfolio .portfolio-item .portfolio-no-link .prize-image {
+  height: 400px;
+  width: auto;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -371,11 +389,13 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+  max-width: 450px;
   margin: 0 auto;
   padding: 25px;
   text-align: center;
   background-color: #fff;
+  min-height: 250px;
+  padding-bottom: 20px;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {

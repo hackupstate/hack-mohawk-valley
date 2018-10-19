@@ -48,49 +48,14 @@ header.masthead, section.masthead, section.stock-image-laptop {
 }
 
 // Update these classes to update the banners
-.main-hu-banner {
+.ryan-banner {
     // background-image: url('../img/backgrounds/hu-sign-header.png'); - if you don't want a gray gradient
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/hu-sign-header-min.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/ryan.jpg');
   color: white;
 }
 
-.cny-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/cny.jpg');
-  color: white;
-}
-
-.hu-xii-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/xii/hu-iix-banner.jpg');
-  color: white;
-}
-
-// HU 11
-.hu-xi-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/xi/hu-ix-banner.jpg');
-  color: white;
-}
-
-// HU 10
-.hu-x-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/x/hu-x-banner.JPG');
-  color: white;
-}
-
-// HU 9
-.hu-ix-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/ix/hu-ix-cover.jpg');
-  color: white;
-}
-
-// HU 8
-.hu-viii-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/viii/hu-header-viii.JPG');
-  color: white;
-}
-
-// HU 7
-.hu-vii-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/vii/hu-vii-banner.png');
+.stacey-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/stacey.jpg');
   color: white;
 }
 
